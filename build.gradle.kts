@@ -17,6 +17,9 @@ repositories {
 
 dependencies {
     implementation("org.springframework.boot:spring-boot-starter-web")
+    //로그
+    implementation("org.springframework.boot:spring-boot-starter-log4j2")
+
     developmentOnly("org.springframework.boot:spring-boot-devtools")
     testImplementation("org.springframework.boot:spring-boot-starter-test")
 }
